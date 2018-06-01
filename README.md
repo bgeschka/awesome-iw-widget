@@ -1,5 +1,5 @@
 # awesome-iw-widget (iw supported radios only,oxygen icons required)
-
+![alt text](http://files.bgeschka.de/stuff/iw-widget.png)
 i wrote this because i could not find any widget that just indicates wireless info,
 others come with networkmanager or other software (wicd/nm & nm-applet...)
 
