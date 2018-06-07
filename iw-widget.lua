@@ -60,13 +60,13 @@ function(widget, stdout, stderr, exitreason, exitcode)
 		local rs = o['signal']*-1;
 		local s = "00";
 		if rs < 25 then
-			s="00";
-		elseif rs < 50 then
-			s="25";
-		elseif rs < 75 then
-			s="50";
-		elseif rs < 100 then
 			s="75";
+		elseif rs < 50 then
+			s="50";
+		elseif rs < 75 then
+			s="25";
+		elseif rs < 100 then
+			s="00";
 		end
 		img = img .. s;
 	else
